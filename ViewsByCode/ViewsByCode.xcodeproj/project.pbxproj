@@ -181,13 +181,13 @@
 		A4AE4ED725C1ADAC000E13CB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A4AE4ED825C1ADD7000E13CB /* HomeProtocols.swift */,
-				A4E4E41D25C1B72700662233 /* HomeViewController.swift */,
-				A492FCB425C2EC2300577C38 /* HomeViewInteractor.swift */,
+				A492FCC925C2EC9400577C38 /* HomeBuilder.swift */,
 				A492FCBE25C2EC3C00577C38 /* HomeLocalDataManager.swift */,
 				A492FCAF25C2EC1800577C38 /* HomePresenter.swift */,
+				A4AE4ED825C1ADD7000E13CB /* HomeProtocols.swift */,
 				A492FCB925C2EC2D00577C38 /* HomeRouter.swift */,
-				A492FCC925C2EC9400577C38 /* HomeBuilder.swift */,
+				A4E4E41D25C1B72700662233 /* HomeViewController.swift */,
+				A492FCB425C2EC2300577C38 /* HomeViewInteractor.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
