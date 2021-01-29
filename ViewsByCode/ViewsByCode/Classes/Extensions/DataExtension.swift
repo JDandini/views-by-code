@@ -8,8 +8,8 @@
 import Foundation
 
 extension Data {
-    static func data(from fileName: String, type: String) -> Data? {
-        guard let filePath = Bundle.main.path(forResource: fileName, ofType: type) else {
+    static func fromFile(_ fileName: String, fileType: String) -> Data? {
+        guard let filePath = Bundle.main.path(forResource: fileName, ofType: fileType) else {
             return .none
         }
         let url = URL(fileURLWithPath: filePath)
