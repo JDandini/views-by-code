@@ -30,6 +30,7 @@
 		A4E15CC325C44F2B009DC961 /* JSONResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E15CC225C44F2B009DC961 /* JSONResponseDecoder.swift */; };
 		A4E15CC925C456D6009DC961 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E15CC825C456D6009DC961 /* DataExtension.swift */; };
 		A4E15CD125C45798009DC961 /* DataExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E15CD025C45797009DC961 /* DataExtensionTests.swift */; };
+		A4E15CD525C4A72A009DC961 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E15C6E25C43B70009DC961 /* response.json */; };
 		A4E4E41E25C1B72700662233 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4E41D25C1B72700662233 /* HomeViewController.swift */; };
 		AF34169C252BFEBE5C973A3D /* Pods_ViewsByCode_ViewsByCodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAD5D1F9F1C53DED40FF8D4 /* Pods_ViewsByCode_ViewsByCodeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -196,12 +197,12 @@
 			children = (
 				A492FCC925C2EC9400577C38 /* HomeBuilder.swift */,
 				A492FCBE25C2EC3C00577C38 /* HomeLocalDataManager.swift */,
+				A4E15CB125C44466009DC961 /* HomeLocalDataManagerTest.swift */,
 				A492FCAF25C2EC1800577C38 /* HomePresenter.swift */,
 				A4AE4ED825C1ADD7000E13CB /* HomeProtocols.swift */,
 				A492FCB925C2EC2D00577C38 /* HomeRouter.swift */,
 				A4E4E41D25C1B72700662233 /* HomeViewController.swift */,
 				A492FCB425C2EC2300577C38 /* HomeViewInteractor.swift */,
-				A4E15CB125C44466009DC961 /* HomeLocalDataManagerTest.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -405,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E15CD525C4A72A009DC961 /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
