@@ -25,5 +25,4 @@ class HomeLocalDataManagerTest: XCTestCase {
         let itemsArray = sut?.fetchItems() ?? []
         XCTAssertEqual(itemsArray.count, 24)
     }
-
 }
