@@ -24,7 +24,9 @@ protocol HomeInteractorProtocol: class {
     var localDataManager: HomeLocalDataManagerProtocol? { get set }
 }
 
-protocol HomeLocalDataManagerProtocol {}
+protocol HomeLocalDataManagerProtocol {
+    func fetchItems() -> [Product]
+}
 
 protocol HomeRouterProtocol {}
 
