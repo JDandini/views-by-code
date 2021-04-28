@@ -21,6 +21,10 @@ class HomeLocalDataManagerTest: XCTestCase {
         sut = nil
         super.tearDown()
     }
-    
-    
+
+    func testFetchData() {
+        let homeData = sut?.fetchData()
+        XCTAssertNotNil(homeData)
+    }
+
 }
