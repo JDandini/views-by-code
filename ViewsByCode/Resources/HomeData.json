@@ -1,0 +1,89 @@
+{
+	"hero": [
+		{
+			"image": "hero1",
+			"action": "/categories/muebles",
+		},
+		{
+			"image": "hero2",
+			"action": "/stores",
+		}
+	],
+	"all_categories": {
+		"title": "Diseña la vida que tú quieras",
+		"subtitle": "Explora nuestros productos",
+		"button": { 
+			"title": "Ver todos",
+			"action": "/muebles"
+		},
+		"categories": [
+			"Sofás",
+			"Sillas", 
+			"Mesas",
+			"Recámaras", 
+			"Colchones", 
+			"Almacenar", 
+			"Iluminación", 
+			"Accesorios", 
+			"Kids"
+		]
+	},
+	"fixed_categories": {
+		"title": null,
+		"subtitle": null,
+		"button": null,
+		"categories": [
+			"Nuevo",
+			"Sale"
+		]
+	},
+	"season_products": {
+		"title": null,
+		"subtitle": "Piezas favoritas de la temporada",
+		"button": { 
+			"title": "Ver todas",
+			"action": "/muebles"
+		}
+	},
+	"ar_banner": {
+		"title": "Decide de forma más fácil",
+		"subtitle": "Visualiza estas piezas antes de comprarlas",
+		"image": "ar_image",
+		"action": "/category/ar",
+		"image_title": "Pruebalas en tu espacio",
+		"image_icon": "arkit"
+	},
+	"stores_banner": {
+		"title": "Nuestras tiendas en la ciudad",
+		"subtitle": "Conoce las piezas y experimenta cada espacio",
+		"image": "stores",
+		"action": "/stores",
+		"image_title": "Tiendas",
+		"image_icon": "pin"
+	},
+	"benefits": {
+		"title": "Nuestras tiendas en la ciudad",
+		"perks": [
+			{
+				"title": "Envio gratis",
+				"subtitle": "Envio gratis a algunas ciudades",
+				"image": "car"
+			},
+			{
+				"title": "Envio gratis",
+				"subtitle": "Envio gratis a algunas ciudades",
+				"image": "car"
+			},
+			{
+				"title": "Facilidades de pago",
+				"subtitle": "Pago en efectivo o paga en 3, 6 o 9 MSI",
+				"image": "cards"
+			},
+			{
+				"title": "Fecha de entrega personalizada",
+				"subtitle": "Recibe el dia que mas te convenga",
+				"image": "calendar"
+			}
+		]
+	}
+}
