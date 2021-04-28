@@ -33,6 +33,13 @@
 		A4E15CD525C4A72A009DC961 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E15C6E25C43B70009DC961 /* response.json */; };
 		A4E4E41E25C1B72700662233 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4E41D25C1B72700662233 /* HomeViewController.swift */; };
 		AF34169C252BFEBE5C973A3D /* Pods_ViewsByCode_ViewsByCodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAD5D1F9F1C53DED40FF8D4 /* Pods_ViewsByCode_ViewsByCodeUITests.framework */; };
+		CC7C128A2639984E00FA10F5 /* HomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = CC7C12892639984E00FA10F5 /* HomeData.json */; };
+		CC7C128C2639989E00FA10F5 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C128B2639989E00FA10F5 /* Hero.swift */; };
+		CC7C129026399AB600FA10F5 /* CategoriesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C128F26399AB600FA10F5 /* CategoriesSection.swift */; };
+		CC7C129226399B9900FA10F5 /* SeasonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C129126399B9900FA10F5 /* SeasonSection.swift */; };
+		CC7C129426399BE900FA10F5 /* HomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C129326399BE900FA10F5 /* HomeBanner.swift */; };
+		CC7C129626399CC400FA10F5 /* Benefits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C129526399CC400FA10F5 /* Benefits.swift */; };
+		CC7C129826399DC200FA10F5 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C129726399DC200FA10F5 /* HomeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +94,13 @@
 		A4E15CD025C45797009DC961 /* DataExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensionTests.swift; sourceTree = "<group>"; };
 		A4E4E41D25C1B72700662233 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CBAD5D1F9F1C53DED40FF8D4 /* Pods_ViewsByCode_ViewsByCodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewsByCode_ViewsByCodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7C12892639984E00FA10F5 /* HomeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HomeData.json; sourceTree = "<group>"; };
+		CC7C128B2639989E00FA10F5 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		CC7C128F26399AB600FA10F5 /* CategoriesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesSection.swift; sourceTree = "<group>"; };
+		CC7C129126399B9900FA10F5 /* SeasonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonSection.swift; sourceTree = "<group>"; };
+		CC7C129326399BE900FA10F5 /* HomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBanner.swift; sourceTree = "<group>"; };
+		CC7C129526399CC400FA10F5 /* Benefits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benefits.swift; sourceTree = "<group>"; };
+		CC7C129726399DC200FA10F5 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
 		E341D4DE9409504D5E8D91E6 /* Pods-ViewsByCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewsByCode.debug.xcconfig"; path = "Target Support Files/Pods-ViewsByCode/Pods-ViewsByCode.debug.xcconfig"; sourceTree = "<group>"; };
 		EED1A14FAD9CF1A85C28F7DE /* Pods-ViewsByCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewsByCode.release.xcconfig"; path = "Target Support Files/Pods-ViewsByCode/Pods-ViewsByCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +224,7 @@
 		A4E15C6A25C43B57009DC961 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CC7C12892639984E00FA10F5 /* HomeData.json */,
 				A4E15C6E25C43B70009DC961 /* response.json */,
 			);
 			path = Resources;
@@ -239,6 +254,12 @@
 			children = (
 				A4E15CB725C44618009DC961 /* Product.swift */,
 				A4E15CBC25C44D3F009DC961 /* Response.swift */,
+				CC7C128B2639989E00FA10F5 /* Hero.swift */,
+				CC7C128F26399AB600FA10F5 /* CategoriesSection.swift */,
+				CC7C129126399B9900FA10F5 /* SeasonSection.swift */,
+				CC7C129326399BE900FA10F5 /* HomeBanner.swift */,
+				CC7C129526399CC400FA10F5 /* Benefits.swift */,
+				CC7C129726399DC200FA10F5 /* HomeData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -398,6 +419,7 @@
 				A4E15C6F25C43B70009DC961 /* response.json in Resources */,
 				A4AE4EA625C1A6BC000E13CB /* LaunchScreen.storyboard in Resources */,
 				A4AE4EA325C1A6BC000E13CB /* Assets.xcassets in Resources */,
+				CC7C128A2639984E00FA10F5 /* HomeData.json in Resources */,
 				A4AE4EA125C1A6A6000E13CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,10 +535,16 @@
 			files = (
 				A492FCBF25C2EC3C00577C38 /* HomeLocalDataManager.swift in Sources */,
 				A4E4E41E25C1B72700662233 /* HomeViewController.swift in Sources */,
+				CC7C129226399B9900FA10F5 /* SeasonSection.swift in Sources */,
 				A492FCCA25C2EC9400577C38 /* HomeBuilder.swift in Sources */,
+				CC7C129826399DC200FA10F5 /* HomeData.swift in Sources */,
+				CC7C129426399BE900FA10F5 /* HomeBanner.swift in Sources */,
 				A4AE4ED925C1ADD7000E13CB /* HomeProtocols.swift in Sources */,
 				A4E15CBD25C44D3F009DC961 /* Response.swift in Sources */,
+				CC7C128C2639989E00FA10F5 /* Hero.swift in Sources */,
 				A492FCB525C2EC2300577C38 /* HomeViewInteractor.swift in Sources */,
+				CC7C129026399AB600FA10F5 /* CategoriesSection.swift in Sources */,
+				CC7C129626399CC400FA10F5 /* Benefits.swift in Sources */,
 				A4E15CB825C44618009DC961 /* Product.swift in Sources */,
 				A492FCBA25C2EC2D00577C38 /* HomeRouter.swift in Sources */,
 				A4AE4E9A25C1A6A6000E13CB /* AppDelegate.swift in Sources */,
@@ -703,7 +731,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T8P34634UK;
+				DEVELOPMENT_TEAM = PWA6MBQZPC;
 				INFOPLIST_FILE = ViewsByCode/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -723,7 +751,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T8P34634UK;
+				DEVELOPMENT_TEAM = PWA6MBQZPC;
 				INFOPLIST_FILE = ViewsByCode/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -743,7 +771,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T8P34634UK;
+				DEVELOPMENT_TEAM = PWA6MBQZPC;
 				INFOPLIST_FILE = ViewsByCodeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -766,7 +794,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T8P34634UK;
+				DEVELOPMENT_TEAM = PWA6MBQZPC;
 				INFOPLIST_FILE = ViewsByCodeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -788,7 +816,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T8P34634UK;
+				DEVELOPMENT_TEAM = PWA6MBQZPC;
 				INFOPLIST_FILE = ViewsByCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -809,7 +837,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T8P34634UK;
+				DEVELOPMENT_TEAM = PWA6MBQZPC;
 				INFOPLIST_FILE = ViewsByCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

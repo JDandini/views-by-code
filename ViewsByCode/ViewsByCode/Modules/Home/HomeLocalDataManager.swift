@@ -8,13 +8,16 @@
 import Foundation
 
 struct HomeLocalDataManager: HomeLocalDataManagerProtocol {
-    func fetchItems() -> [Product] {
-        guard let data = Data.fromFile("response", fileType: "json") else {
-            return []
+    func fetchData() -> HomeData? {
+        guard let data = Data.fromFile("HomeData", fileType: "json") else {
+            return .none
         }
-        let decoder = JSONResponseDecoder<Response>()
-        let response = try? decoder.decodeObject(with: data)
-        return response?.products ?? []
+        do {
+            let decoder = JSONDecoder()
+            let homeData = try decoder.decode(HomeData.self, from: data)
+            return homeData
+        } catch {
+            return .none
+        }
     }
-
 }

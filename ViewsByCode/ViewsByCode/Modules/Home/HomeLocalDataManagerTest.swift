@@ -17,12 +17,10 @@ class HomeLocalDataManagerTest: XCTestCase {
         sut = HomeLocalDataManager()
     }
 
-    override class func tearDown() {
+    override func tearDown() {
+        sut = nil
         super.tearDown()
     }
-
-    func testItemsFetch() {
-        let itemsArray = sut?.fetchItems() ?? []
-        XCTAssertEqual(itemsArray.count, 24)
-    }
+    
+    
 }

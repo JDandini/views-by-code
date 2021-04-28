@@ -7,25 +7,25 @@
 
 import UIKit
 
-protocol HomeViewProtocol: class {
+protocol HomeViewProtocol: AnyObject {
     var presenter: HomePresenterProtocol? { get set }
 }
 
-protocol HomePresenterProtocol: class {
+protocol HomePresenterProtocol: AnyObject {
     var view: HomeViewProtocol? { get set }
     var interactor: HomeInteractorProtocol? { get set }
     var router: HomeRouterProtocol? { get set }
 }
 
-protocol HomeInteractorOutput: class {}
+protocol HomeInteractorOutput: AnyObject {}
 
-protocol HomeInteractorProtocol: class {
+protocol HomeInteractorProtocol: AnyObject {
     var presenter: HomeInteractorOutput? { get set }
     var localDataManager: HomeLocalDataManagerProtocol? { get set }
 }
 
 protocol HomeLocalDataManagerProtocol {
-    func fetchItems() -> [Product]
+    func fetchData() -> HomeData?
 }
 
 protocol HomeRouterProtocol {}
