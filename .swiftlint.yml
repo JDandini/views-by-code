@@ -1,4 +1,5 @@
 disabled_rules:
+  - todo
   - line_length
   - identifier_name
   - type_body_length
@@ -6,14 +7,17 @@ disabled_rules:
   - function_body_length
   - type_name
   - nesting
+  - computed_accessors_order
 opt_in_rules:
   - discouraged_object_literal
-  - force_unwrapping
   - todo
+  - force_unwrapping
 force_cast: error
 force_try: error
 force_unwrapping: error
-todo: warning
 
+included:
+  - ViewsByCode
+  - ViewsByCodeTest
 excluded:
-    - Pods
+  - Pods
