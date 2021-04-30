@@ -48,7 +48,7 @@
 	"ar_banner": {
 		"title": "Decide de forma más fácil",
 		"subtitle": "Visualiza estas piezas antes de comprarlas",
-		"image": "ar_image",
+		"image": "ar-hero",
 		"action": "/category/ar",
 		"image_title": "Pruebalas en tu espacio",
 		"image_icon": "arkit"
