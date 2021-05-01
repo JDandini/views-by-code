@@ -12,9 +12,13 @@ final class HomeViewController: UIViewController {
 
     var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-
+        layout.sectionInset = UIEdgeInsets(top: ViewMetrics.doubleSpace,
+                                           left: ViewMetrics.doubleSpace,
+                                           bottom: ViewMetrics.singleSpace,
+                                           right: ViewMetrics.doubleSpace)
         let screenWidth = UIScreen.main.bounds.width
-        layout.headerReferenceSize = CGSize(width: screenWidth, height: 72)
+        layout.headerReferenceSize = CGSize(width: screenWidth,
+                                            height: ViewMetrics.singleSpace * ViewMetrics.singleSpace)
         let width = screenWidth/2.5
         layout.itemSize = CGSize(width: width, height: width * 4/3)
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
@@ -38,7 +42,6 @@ final class HomeViewController: UIViewController {
         collectionView.register(HomeHeader.self,
                                 forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
                                 withReuseIdentifier: HomeHeader.identifier)
-        collectionView.dataSource = presenter as? UICollectionViewDataSource
         view.backgroundColor = .white
         view.addSubview(collectionView)
         setupConstraints()
@@ -54,14 +57,3 @@ final class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: HomeViewProtocol {}
-
-extension HomeViewController: UICollectionViewDelegate {}
-
-extension HomeViewController: UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView,
-                        layout collectionViewLayout: UICollectionViewLayout,
-                        referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSize(width: collectionView.bounds.width, height: 100)
-
-    }
-}
